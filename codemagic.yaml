@@ -2,8 +2,9 @@ workflows:
   android-webview-release:
     name: Build Android WebView APK
     environment:
-      sdk: "30"
-      java: "11"
+      android:
+        sdk: 30
+      java: 11
     scripts:
       - echo "Building APK..."
       - ./gradlew assembleRelease
