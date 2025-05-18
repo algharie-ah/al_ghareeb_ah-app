@@ -2,7 +2,7 @@ workflows:
   android-webview-release:
     name: Build Android WebView APK
     environment:
-      image: ubuntu-20.04
+      image: ubuntu-22.04-flutter
       java: 11
     scripts:
       - echo "Building APK..."
