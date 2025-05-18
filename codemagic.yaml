@@ -3,7 +3,7 @@ workflows:
     name: Build Android WebView APK
     environment:
       android:
-        sdk: 30
+        image: android-31
       java: 11
     scripts:
       - echo "Building APK..."
